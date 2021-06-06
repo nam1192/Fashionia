@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Fashionia | online shopping site</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="py-6 text-center">
+            <img class="d-block mx-3" src="/logo.jpg" alt="" width="50" height="50">
+            <a class="navbar-brand mx-1" href="#">Fashionia</a>
+        </div>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Clothing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Makeup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Footwear</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Accesories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Bangle</a></li>
+                            <li><a class="dropdown-item" href="#">Bracelet</a></li>
+                            <li><a class="dropdown-item" href="#">Earring</a></li>
+                            <li><a class="dropdown-item" href="#">Hand Bags</a></li>
+                            <li><a class="dropdown-item" href="#">Sunglass</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Others</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                <div class="btn-group">
+                    <a href="/profile.html" class="btn btn-outline-info" aria-current="page"><i class="fa fa-user"
+                            aria-hidden="true"></i> Profile</a>
+                    <a href="/bag.html" class="btn btn-danger"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Bag</a>
+                    <a href="/wishlist.html" class="btn btn-danger"><i class="fa fa-bookmark" aria-hidden="true"></i> Wishlist</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 
+      <h2>&nbsp &nbsp &nbsp &nbsp &nbsp Special Offers only for you!<span class="badge bg-secondary">New arrivals</span></h2> -->
+
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="backg/bg4.jpg" width="500" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>SALE! SALE! SALE!</h1>
+                    <h2>SPRING COLLECTIONS</h2>
+                    <p>Get flat 50% off on all the prodects. Hurry up!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="backg/top.png" width="500" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>BUY 1 AND GET 2 FREE</h1>
+                    <p>It's Surprise Time. Get exciting offers...</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="backg/bg6.jpg" width="500" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>GET, SET, GLAM UP</h1>
+                    <p>upto 70% off + Free eyeliner on purchase of any 3 items</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <!-- advertisement -->
+    <div class="row mb-2 my-4 mx-4">
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static" style="background-color: rgb(222, 220, 247);">
+                    <strong class="d-inline-block mb-2 text-primary">Designer wear</strong>
+                    <h3 class="mb-0">Festive Collections</h3>
+                    <div class="mb-1 text-muted">Upto 40% off</div>
+                    <p class="card-text mb-auto">All new festive sets. Too Pretty to ignore. Slay in these new designer
+                        wears. </p>
+                    <a href="#" class="stretched-link">Explore</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="300" height="250" src="backg/bg8.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static" style="background-color: rgb(207, 231, 175);">
+                    <strong class="d-inline-block mb-2 text-success">Featured Brands</strong>
+                    <h3 class="mb-0">Stop N Shop</h3>
+                    <div class="mb-1 text-muted">Sale till 31st March</div>
+                    <p class="mb-auto">Favorite Brands, Most Loved Trends!!! Explore to know more...</p>
+                    <a href="#" class="stretched-link">Explore</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="300" height="250" src="backg/bg2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- List of items  -->
+    <div class="container my-4">
+        <h2>BIGGEST DEALS ON</h2>
+        <div class="row my-4">
+            <div class="col-lg-3" style="background-color: rgb(242, 243, 225);">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="women/w2.jpg" alt="">
+                <p><a class="btn btn-outline-danger" style= "margin-top: 20px; margin-left: 80px;" href="#" role="button">JACKETS</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-3" style="background-color: rgb(255, 246, 208);">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="women/w3.jpg" alt="">
+                <p><a class="btn btn-outline-danger" style= "margin-top: 20px; margin-left: 78px;" href="#" role="button">Sunglases</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-3" style="background-color: rgb(242, 243, 225);">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="women/ethnic.jpg" alt="">
+                <p><a class="btn btn-outline-danger" style= "margin-top: 20px; margin-left: 88px;" href="#" role="button">Ethnic</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-3" style="background-color: rgb(255, 246, 208);">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="women/w4.jpg" alt="">
+                <p><a class="btn btn-outline-danger" style= "margin-top: 20px; margin-left: 88px;" href="#" role="button">Heels</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>DEAL WHEEL</h2>
+        <div class="row my-4" style="background-color: aliceblue;">
+            <div class="col-lg-3">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="offer/off1.jpg" alt="">
+                <p><a class="btn btn-outline-success" style= "margin-top: 20px; margin-left: 75px;" href="#" role="button">+Explore</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-3">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="offer/off2.webp" alt="">
+                <p><a class="btn btn-outline-success" href="#" style= "margin-top: 20px; margin-left: 75px;" role="button">+Explore</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-3">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="offer/off3.jpg" alt="">
+                <p><a class="btn btn-outline-success" href="#" style= "margin-top: 20px; margin-left: 75px;" role="button">+Explore</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-3">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" style= "margin-left: 55px;" src="offer/off4.jpg" alt="">
+                <p><a class="btn btn-outline-success" href="#" style= "margin-top: 20px; margin-left: 77px;" role="button">+Explore</a></p>
+            </div><!-- /.col-lg-4 -->
+
+        </div>
+    </div>
+
+<!-- 2nd addvertisement  -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" style="margin: auto; width: 1150px;">
+        <div class="carousel-item active" >
+            <img src="add/add1.jpg" width="300" height="300" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Best of Sunglases</h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="add/add3.jpg" width="300" height="300" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Sparkle like star</h1>
+                <p>Get exciting offers on necklaces...</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="add/add4.jpg" width="300" height="300" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Grab it! Bag it!</h1>
+                <p>upto 30% off on all top brands</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+
+
+
+    <!-- Brands list  -->
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <h1>BRANDS TO EXPLORE</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b7.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>ULSA</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b3.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>BIBA</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b4.cms"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>W</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b5.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>ONLY</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b6.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>ROADSTAR</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b2.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>MANGO</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b1.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>HANDBAGS</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b8.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>MAKEUP PRODUCTS</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="brand/b9.jpg"
+                            alt="">
+
+                        <div class="card-body">
+                            <h4>WATCHES</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- At last  -->
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-lg-3">
+                <div class="card" style="width: 100%; height: 16rem; background-color: rgb(255, 255, 244);">
+                    <div class="card-body">
+                        <h5 class="card-title">Online Shopping</h5>
+                        <ul class="lists" style="list-style-type: none;">
+                            <li>Women</li>
+                            <li>Accesories</li>
+                            <li>Makeup</li>
+                            <li>Heels & Sandals</li>
+                            <li>Offers</li>
+                            <li>Gift Cards</li>
+                            <li>Membership</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width: 100%; height: 16rem; background-color: rgb(255, 255, 244);">
+                    <div class="card-body">
+                        <h5 class="card-title">Other Links</h5>
+                        <ul class="lists" style="list-style-type: none;">
+                            <li>Contact Us</li>
+                            <li>FAQ</li>
+                            <li>T&C</li>
+                            <li>Blog</li>
+                            <li>Shipping</li>
+                            <li>Returns</li>
+                            <li>Cancellation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card" style="width: 100%; height: 16rem; justify-content: center; align-items: center; background-color: rgb(255, 255, 244);">
+                    <div class=" card-body">
+                        <h5 class="card-title"><i class="fa fa-heart" aria-hidden="true"></i> 100% Original Products
+                        </h5>
+                        <p class="card-subtitle mb-2 text-muted" class="card-text">For all products</p>
+                        <h5 class="card-title"><i class="fa fa-truck" aria-hidden="true"></i> Get Free delivery</h5>
+                        <p class="card-subtitle mb-2 text-muted" class="card-text">on order above 499</p>
+                        <h5 class="card-title"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Easy Returns</h5>
+                        <p class="card-subtitle mb-2 text-muted" class="card-text">Can return within 30 days</p>
+                        <p class="card-subtitle mb-2 text-muted" style="cursor: pointer" type="email" class="card-text">
+                            fashionia@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- <div class="col-lg-6"> -->
+        <div class="card" style="width: 100%; justify-content: center; align-items: center; display: flex; background-color: rgb(255, 255, 244);">
+            <h5 class="card-title">DOWNLOAD</h5>
+            <div class="card-body" style="width: 100%; justify-content: center; align-items: center; display: flex;">
+                <button type="button" class="btn btn-dark btn-outline-light"><i class="fab fa-apple"></i> App Store</button>
+                <button type="button" class="btn btn-dark btn-outline-warning"><i class="fab fa-android"></i> Google Play</button>
+        </div>
+        <p class="card-text card-subtitle mb-2 text-muted">Mobile app version for both android and apple users.</p>
+            <h6 class="card-title">Keep in touch with us</h6>
+            <div class="card-body">
+                <a class="footer-link" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a class="footer-link" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="footer-link" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer  -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2017-2021 Fashnia, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
